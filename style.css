@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #355C7D;
+    margin:30px;
+    padding: 20px 0;
+}
+
+.flex-item{
+    background-color:#F8B195;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    .flex-item{
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .flex-item{
+        margin: 10px;
+    }
+}
